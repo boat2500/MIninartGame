@@ -1,0 +1,214 @@
+.BG{
+    margin-left: -31px;
+    margin-top: -20px;
+    
+}
+.BG-Computer{
+    margin-left: -8px;
+    margin-top: -480px;
+}
+.BG-Counter{
+    margin-left: -30.1px;
+    margin-top: -115.9px;
+}
+
+.John{
+    margin-left: 360px;
+    margin-top: -640px;
+    
+}
+
+.Bag{
+   
+    margin-left: 1117px;
+    margin-top: 140px;
+}
+.input{
+    height:25px;
+    font-size:16pt; 
+    margin-left: 14px;
+    margin-top: -460px;
+    font-family:Comic Sans MS;
+    
+}
+.input2{
+    height:20px;
+    font-size:12pt; 
+    margin-left: 14px;
+    margin-top: -460px;
+    font-family:Comic Sans MS;
+    
+}
+.inputDiv{
+    margin-left: 54px;
+    margin-top: -460px;
+}
+.Item{
+    position: relative;
+    margin-left: 540px;
+    margin-top: 1%;
+    
+    
+}
+
+.time{
+    
+    height:25px;
+    font-size:48pt; 
+    margin-left: 1100px;
+    margin-top: -460px;
+    /* margin: 5px; */
+    /* padding: 10px;
+    float: left; */
+    color: rgb(0, 0, 0);
+    font-family:Comic Sans MS;
+    
+}
+
+#div1, #div2, #div3, #div4 {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: aliceblue; */
+    border: 0px solid black;
+}
+.SBG{
+    margin-left: -15px;
+    margin-top: -17px;
+}
+
+.button-location{
+    margin-top: -270px;
+    margin-left: 780px;
+}
+
+.button {
+    background-color: rgb(245, 150, 213);
+    border: none;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 30px 150px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 58px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family:Comic Sans MS;
+  }
+  .button5:hover {
+    
+    background-color: rgb(245, 185, 225);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+
+  }
+
+#xa, #xb, #xc{
+    font-size:32pt;
+    font-family:Comic Sans MS;
+    margin-top: -5%;
+    margin-left: 35%;
+    height:1px;
+    font-weight: 900;
+}
+
+.button-scene {
+    background-color: rgb(179, 250, 181); /* Green */
+    border: none;
+    border: 1px solid rgb(82, 81, 81);
+    color: rgb(0, 0, 0);
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 3px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family:Comic Sans MS;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.button3:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.score{
+    
+    height:25px;
+    font-size:48pt; 
+    margin-left: 50px;
+    margin-top: -720px;
+    /* margin: 5px; */
+    /* padding: 10px;
+    float: left; */
+    color: rgb(0, 0, 0);
+    font-family:Comic Sans MS;
+    
+}
+
+.tag{
+    margin-top: 10%;
+    margin-left: 55%;
+    height: 260px;
+    width: 300px; 
+}
+
+.T{
+
+    margin-top: -200%;
+    margin-left: 63%;
+    height: 10%;
+    width: 10%; 
+
+}
+
+.ruld{
+    margin-top: -120px;
+    margin-left: 60px;
+    font-size:16pt; 
+}
+
+.Bg1{
+    margin-top: -620px;
+    margin-left: 80px;
+    height: 100px;
+   
+}
+
+.buttonRu {
+    background-color: rgb(245, 150, 213);
+    border: none;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 90px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    /* margin: 4px 2px; */
+    margin-top: 270px;
+    margin-left: -500px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family:Comic Sans MS;
+  }
+  .button:hover {
+    
+    background-color: rgb(245, 185, 225);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+
+  }

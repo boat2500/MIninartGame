@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini_Mart game</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./Image/counter.png">
+    <link rel="stylesheet" href="./Image/Untitled-3.png">
+    <link rel="stylesheet" href="./Image/bag.png">
+    <link rel="stylesheet" href="./Image/john1.png">
+    <link rel="stylesheet" href="./Image/car.png">
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="BG">
+        <img src="./Image/counter.png">
+    </div>
+
+    <div class="John" ondrop="dropBag(event)" ondragover="allowDrop(event)">
+        <img src="./Image/john1.png" width="550">
+
+    </div>
+
+    <div class="BG-Counter">
+        <img src="./Image/table.png">
+    </div>
+
+    <div class="BG-Computer">
+        <img src="./Image/com.png">
+    </div>
+
+    <div class="inputDiv">
+
+        <p><b>เงินที่รับมา</b><input id="input_1" type="text" class="input" style="text-align: right;" size="18px"
+                value="" readonly>&nbsp; <b>บาท</b></p>
+        <!-- </br>
+        </br> -->
+        <p><b>ราคาของ</b>&nbsp; <input id="input_2" type="text" class="input" style="text-align: right;" size="18px"
+                value="" readonly>&nbsp; <b>บาท</b></P>
+        <!-- </br>
+        </br> -->
+        <p><b>เงินทอน</b>&nbsp; &nbsp; <input id="input_3" type="text" class="input" style="text-align: right;"
+                size="18px" value="">&nbsp; <b>บาท</b></p>
+        <p><b>&nbsp;ราคาสินค้า</b><input id="inValue" type="text" class="input2" style="text-align: right;" size="1px"
+                value="" readonly>&nbsp; <b>X</b>
+            <input id="inPow" type="text" class="input2" style="text-align: right;" size="1px" value="" readonly>&nbsp;
+            <b>=</b>
+            <input id="price" type="text" class="input2" style="text-align: right;" size="1px" value="">&nbsp;
+            <b>บาท</b>
+            </br>
+            <button class="button-scene button2" onclick="out(); " onkeyup="addPrice()">ทอนเงิน</button>
+            <button class="button-scene button3" onclick="addPrice()">เพิ่มของ</button>
+
+    </div>
+
+    <div class="Item">
+        <div id="div1">
+            <img id="drag1" src="./Image/none.png" onload="this.onload=null; this.src=getImagePath1();" draggable="true"
+                ondragstart="drag(event)" width="150" height="150">
+            <p id="xa"></p>
+        </div>
+
+        <div id="div2" ondrop="drop(event)">
+            <img id="drag2" src="./Image/none.png" onload="this.onload=null; this.src=getImagePath2();" draggable="true"
+                ondragstart="drag(event)" width="150" height="150">
+            <p id="xb"></p>
+        </div>
+
+        <div id="div3" ondrop="drop(event)">
+            <img id="drag3" src="./Image/none.png" onload="this.onload=null; this.src=getImagePath3();" draggable="true"
+                ondragstart="drag(event)" width="150" height="150">
+            <p id="xc"></p>
+        </div>
+    </div>
+    <div class="time">
+        <p><b><span id="time"></span></b></p>
+    </div>
+
+
+    <div class="Bag" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="drag4" src="./Image/none.png" onload="this.onload=null; this.src=getImagebag();" draggable="true"
+            ondragstart="drag(event)">
+    </div>
+    <div class="score">
+        <p><b id="showScore"></b></p>
+    </div>
+
+
+</body>
+
+</html>
